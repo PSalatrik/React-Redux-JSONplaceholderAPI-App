@@ -9,7 +9,7 @@ import App from './components/App.js';
 import reducers from './reducers';
 
 
-const store = createStore(reducers, applyMiddleware(thunk));
+const store = createStore(reducers, applyMiddleware(thunk) );
 
 ReactDOM.render( 
 	<Provider store={store}>
